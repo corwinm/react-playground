@@ -13,7 +13,8 @@
     "start:all": "awsmobile run",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --coverage",
+    "test": "react-scripts test --env=jsdom",
+    "test:ci": "npm test -- --coverage",
     "eject": "react-scripts eject"
   }
 }
